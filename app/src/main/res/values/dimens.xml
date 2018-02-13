@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_main_like_button_height">30dp</dimen>
+    <dimen name="activity_main_like_button_width">30dp</dimen>
+    <dimen name="activity_main_like_button_padding">0dp</dimen>
+    <dimen name="activity_main_bike_text_view_size">30dp</dimen>
+    <dimen name="activity_main_general_layout">10dp</dimen>
+</resources>

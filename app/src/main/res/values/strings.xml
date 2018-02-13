@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="activity_main_bike_title">MOUNTAIN BIKE</string>
+    <string name="activity_main_color_title">COLOR</string>
+</resources>
