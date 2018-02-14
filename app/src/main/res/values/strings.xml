@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">ExamTest</string>
-    <string name="activity_main_bike_title">MOUNTAIN BIKE</string>
+    <string name="activity_main_bike_title">CRUISER BICYCLE</string>
     <string name="activity_main_color_title">COLOR</string>
+    <string name="activity_main_size_small">S</string>
+    <string name="activity_main_size_medium">M</string>
+    <string name="activity_main_size_large">L</string>
+    <string name="activity_main_size_extra_large">XL</string>
+    <string name="activity_main_description_title">DESCRIPTION</string>
+    <string name="activity_main_measurement_title">MEASUREMENT</string>
+    <string name="activity_main_cart_title">ADD TO CART</string>
+
+    <string name="activity_main_description_paragraph">
+        26-inch men\'s single-speed cruiser bike for easy, relaxed riding. 19-inch extended steel frame creates more space between rider and handlebars
+        Balloon tires for a cushioned ride; easy-to-use coaster brakes.
+    </string>
+
+    <string name="activity_main_measurement_paragraph">
+        Firmstrong\'s mission is to design bikes that blend style and functionality, creating an experience for riders, not just a mode of transportation.
+        Our bikes are inspired by the design of classic cruiser bicycles, made to roll smooth on paths, boardwalks, streets, and trails.
+    </string>
 </resources>

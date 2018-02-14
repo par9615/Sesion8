@@ -5,4 +5,13 @@
     <dimen name="activity_main_like_button_padding">0dp</dimen>
     <dimen name="activity_main_bike_text_view_size">30dp</dimen>
     <dimen name="activity_main_general_layout">10dp</dimen>
+    <dimen name="activity_main_size_button_height">40dp</dimen>
+    <dimen name="activity_main_size_button_width">40dp</dimen>
+    <dimen name="activity_main_size_button_border">1dp</dimen>
+    <dimen name="activity_main_size_button_right_margin">10dp</dimen>
+    <dimen name="activity_main_title_margin_top">5dp</dimen>
+    <dimen name="activity_main_title_margin_bottom">5dp</dimen>
+    <dimen name="activity_main_margin_bottom">10dp</dimen>
+    <dimen name="activity_main_cart_button_padding">10dp</dimen>
+
 </resources>

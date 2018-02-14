@@ -8,4 +8,34 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="activity_main_size_button_default">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/activity_main_size_button_default</item>
+    </style>
+
+    <style name="activity_main_size_button_pressed">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/activity_main_size_button_selected</item>
+    </style>
+
+    <style name="activity_main_cart_button_default">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/activity_main_cart_button_default</item>
+        <item name="android:paddingRight">@dimen/activity_main_cart_button_padding</item>
+        <item name="android:paddingLeft">@dimen/activity_main_cart_button_padding</item>
+    </style>
+
+    <style name="activity_main_cart_button_pressed">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/activity_main_cart_button_selected</item>
+        <item name="android:paddingRight">@dimen/activity_main_cart_button_padding</item>
+        <item name="android:paddingLeft">@dimen/activity_main_cart_button_padding</item>
+    </style>
+    
+    <style name="activity_main_title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginTop">@dimen/activity_main_title_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/activity_main_title_margin_bottom</item>
+    </style>
+
 </resources>
