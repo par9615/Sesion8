@@ -52,6 +52,8 @@ public class ActivityMain extends AppCompatActivity {
     {
         color.check(savedInstanceState.getInt(COLOR));
         addToCartButton.setSelected(savedInstanceState.getBoolean(CART));
+        if(addToCartButton.isSelected())
+            addToCartButton.setText(getString(R.string.activity_main_cart_title_added));
         if(savedInstanceState.getInt(SIZE, -1) != -1) {
             selectedSizeButton = findViewById(savedInstanceState.getInt(SIZE));
             selectedSizeButton.setSelected(true);
