@@ -13,5 +13,6 @@
     <dimen name="activity_main_title_margin_bottom">5dp</dimen>
     <dimen name="activity_main_margin_bottom">10dp</dimen>
     <dimen name="activity_main_cart_button_padding">10dp</dimen>
+    <dimen name="activity_main_separator">1dp</dimen>
 
 </resources>
