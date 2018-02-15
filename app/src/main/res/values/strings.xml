@@ -9,6 +9,11 @@
     <string name="activity_main_description_title">DESCRIPTION</string>
     <string name="activity_main_measurement_title">MEASUREMENT</string>
     <string name="activity_main_cart_title">ADD TO CART</string>
+    <string name="activity_main_cart_title_added">ADDED TO CART</string>
+    <string name="activity_main_like_text">+1 to Cruise Bicycle</string>
+    <string name="activity_main_snackbar_undo">UNDO</string>
+    <string name="activity_main_cart_already">Item already is in Cart</string>
+
 
     <string name="activity_main_description_paragraph">
         26-inch men\'s single-speed cruiser bike for easy, relaxed riding. 19-inch extended steel frame creates more space between rider and handlebars

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="activity_main_bike_title">BICICLETA CRUCERO</string>
+    <string name="activity_main_color_title">COLOR</string>
+    <string name="activity_main_size_small">CH</string>
+    <string name="activity_main_size_medium">M</string>
+    <string name="activity_main_size_large">G</string>
+    <string name="activity_main_size_extra_large">EG</string>
+    <string name="activity_main_description_title">DESCRIPCIÓN</string>
+    <string name="activity_main_measurement_title">MEDIDAS</string>
+    <string name="activity_main_cart_title">AGREGAR AL CARRITO</string>
+    <string name="activity_main_like_text">+1 a Bicicleta Crucero</string>
+    <string name="activity_main_snackbar_undo">DESHACER</string>
+    <string name="activity_main_cart_already">El artículo ya está en el carrito</string>
+
+    <string name="activity_main_description_paragraph">
+        Bicicleta de crucero de una sola velocidad para hombres de 26 pulgadas para una conducción fácil y relajada. El marco de acero extendido de 19 pulgadas crea más espacio entre el conductor y el manillar.
+        Neumáticos globo para un paseo amortiguado; Frenos de posavasos fáciles de usar.
+    </string>
+
+    <string name="activity_main_measurement_paragraph">
+        La misión de Firmstrong es diseñar bicicletas que combinen estilo y funcionalidad, creando una experiencia para los pasajeros, no solo un modo de transporte.
+        Nuestras bicicletas están inspiradas en el diseño de bicicletas de crucero clásicas, hechas para rodar sin problemas por senderos, paseos marítimos, calles y senderos.
+    </string>
+</resources>
