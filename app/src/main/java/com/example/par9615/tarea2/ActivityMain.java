@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class ActivityMain extends AppCompatActivity {
     private static String COLOR = "COLOR";
     private static String SIZE = "SIZE";
+    private static String CART = "CART";
 
     Button selectedSizeButton, addToCartButton;
     RadioGroup color;
@@ -42,6 +43,7 @@ public class ActivityMain extends AppCompatActivity {
 
     public void save(Bundle outState) {
         outState.putInt(COLOR, color.getCheckedRadioButtonId());
+        outState.putBoolean(CART, addToCartButton.isSelected());
         if(selectedSizeButton != null)
             outState.putInt(SIZE, selectedSizeButton.getId());
     }
@@ -49,6 +51,7 @@ public class ActivityMain extends AppCompatActivity {
     public void restore(Bundle savedInstanceState)
     {
         color.check(savedInstanceState.getInt(COLOR));
+        addToCartButton.setSelected(savedInstanceState.getBoolean(CART));
         if(savedInstanceState.getInt(SIZE, -1) != -1) {
             selectedSizeButton = findViewById(savedInstanceState.getInt(SIZE));
             selectedSizeButton.setSelected(true);
@@ -57,7 +60,7 @@ public class ActivityMain extends AppCompatActivity {
     }
 
     public void like(View view) {
-        Toast.makeText(ActivityMain.this, "+1 to Cruise Bicycle", Toast.LENGTH_SHORT).show();
+        Toast.makeText(ActivityMain.this, getString(R.string.activity_main_like_text), Toast.LENGTH_SHORT).show();
     }
 
     public void selectSize(View view) {
@@ -74,15 +77,15 @@ public class ActivityMain extends AppCompatActivity {
         if(!addToCartButton.isSelected()) {
 
             addToCartButton.setSelected(true);
-            addToCartButton.setText("Added to Cart");
+            addToCartButton.setText(getString(R.string.activity_main_cart_title_added));
 
-            Snackbar.make(view, "Added to Cart", Snackbar.LENGTH_INDEFINITE)
-                    .setAction("UNDO", new View.OnClickListener() {
+            Snackbar.make(view, getString(R.string.activity_main_cart_title_added), Snackbar.LENGTH_INDEFINITE)
+                    .setAction(getString(R.string.activity_main_snackbar_undo), new View.OnClickListener() {
 
                         @Override
                         public void onClick(View v) {
                             addToCartButton.setSelected(false);
-                            addToCartButton.setText("Add to Cart");
+                            addToCartButton.setText(getString(R.string.activity_main_cart_title));
                         }
                     })
                     .show();
@@ -90,7 +93,7 @@ public class ActivityMain extends AppCompatActivity {
         }
 
         else {
-            Toast.makeText(ActivityMain.this, "Item already is int Cart", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ActivityMain.this, getString(R.string.activity_main_cart_already), Toast.LENGTH_SHORT).show();
         }
     }
 
